@@ -1,4 +1,3 @@
-// src/pages/Inicio.jsx
 import React from 'react';
 import Lista from '../components/Lista';
 import { filmes, series, animacoes } from '../data/data';
