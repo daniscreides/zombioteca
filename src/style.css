@@ -251,11 +251,6 @@ footer {
   width: 60.8px;
   height: 60.8px;
   object-fit: contain;
-  transition: transform 0.4s ease-in-out;
-}
-
-.socialicon .socialitem:hover{
-  transform: scale(1.1);
 }
 
 .titulo-pagina {
