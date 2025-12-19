@@ -237,7 +237,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 14px;
 }
 
 .emailitem,
@@ -245,13 +245,13 @@ footer {
   display: flex;
   align-items: center;
   padding-bottom: 6px;
-  transition: transform 0.4s ease-in-out;
 }
 
 .socialicon {
   width: 60.8px;
   height: 60.8px;
   object-fit: contain;
+  transition: transform 0.4s ease-in-out;
 }
 
 .socialicon .socialitem:hover{
