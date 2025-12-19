@@ -10,7 +10,7 @@ export default function Lista({ itens, mostrarTodos = false }) {
       if (window.innerWidth <= 610) {
         setItensPorLinha(2);
       } else {
-        setItensPorLinha(5);
+        setItensPorLinha(4);
       }
     };
 
