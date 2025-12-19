@@ -45,7 +45,7 @@ body {
   width: 100%;
   max-width: 100%;
   z-index: 1000;
-  padding-top: 24px;
+  padding-top: 10px;
   background-color: var(--cor1);
   overflow-x: hidden;
 }
@@ -67,14 +67,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 26px;
   text-align: center;
   flex-wrap: wrap;
 }
 
 header img.logo {
-  width: 72px;
-  height: 72px;
+  width: 75px;
+  height: 75px;
   flex-shrink: 0;
 }
 
@@ -92,9 +92,9 @@ header h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 40px;
   padding: 8px;
-  font-size: 19.2px;
+  font-size: 22px;
 }
 
 .navegacao li {
@@ -114,20 +114,20 @@ header h1 {
 .introducao {
   text-align: center;
   color: #ffffff;
-  padding-top: 260px;
+  padding-top: 270px;
   padding-bottom: 80px;
 }
 
 .introducao h2 {
-  font-size: 35.2px;
+  font-size: 36px;
 }
 
 .introducao p {
-  font-size: 19.2px;
+  font-size: 19px;
 }
 
 .lista {
-  font-size: 24px;
+  font-size: 30px;
   color: var(--cor4);
   text-align: center;
 }
@@ -206,7 +206,7 @@ footer {
   margin: 80px auto 0;
   background-color: var(--cor1);
   color: var(--cor3);
-  padding: 20.8px 0;
+  padding: 21px 0;
 }
 
 .rodape {
@@ -225,6 +225,7 @@ footer {
 
 .creditos h3 {
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .autor p {
@@ -243,13 +244,18 @@ footer {
 .socialitem {
   display: flex;
   align-items: center;
-  padding-bottom: 16px;
+  padding-bottom: 6px;
+  transition: transform 0.4s ease-in-out;
 }
 
 .socialicon {
   width: 60.8px;
   height: 60.8px;
   object-fit: contain;
+}
+
+.socialicon .socialitem:hover{
+  transform: scale(1.1);
 }
 
 .titulo-pagina {
